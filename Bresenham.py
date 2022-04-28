@@ -16,7 +16,7 @@ def Bresenham(x1, y1, x2, y2):
             y = y + 1
 
         print('(', x, ',', y, ')')
-    pl.title('Graficacion')
+    pl.title('Grafik')
     pl.xlabel('X')
     pl.ylabel('Y')
     pl.grid(color='k', linestyle='dotted', linewidth=1)
@@ -25,10 +25,10 @@ def Bresenham(x1, y1, x2, y2):
     print("Valor dx: ", dx)
     print("Valor dy: ", dy)
 def main():
-    x1 = int(input("Ingrese x1: "))
-    y1 = int(input("Ingrese y1: "))
-    x2 = int(input("Ingrese x2: "))
-    y2 = int(input("Ingrese y2: "))
+    x1 = int(input("Masukkan x1: "))
+    y1 = int(input("Masukkan y1: "))
+    x2 = int(input("Masukkan x2: "))
+    y2 = int(input("Masukkan y2: "))
 
     Bresenham(x1, y1, x2, y2)
 if __name__ == "__main__":
